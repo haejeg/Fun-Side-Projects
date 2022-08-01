@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Simple Trig Identities Calculator</title>
+</head>
+
+<body>
+<form id="identityCalculator" action="">
+<p>Example: sin(x). Currently no support for expressions or symbols. Decimals accepted.</p>
+    <label for="identity">select trig identity: </label>
+    <select name="identity" id="identity">
+        <option value="1">sin</option>
+        <option value="2">cos</option>
+        <option value="3">tan</option>
+        <option value="4">sec</option>
+        <option value="5">csc</option>
+        <option value="6">cot</option>
+    </select>
+	<p>
+		<label for="varValue">x value: </label>
+		<input id="varValue" name="varValue" type="number" step="any"/>
+	</p>
+	<p>
+		<input type="submit" value="Calculate" />
+		<input type="reset" value="Clear" />
+	</p>
+	<p>
+		<label for="output">output: </label>
+		<input id="output" name="output" type="text"/>
+	</p>
+</form>
+
+<script src="main.js" charset="utf-8"></script>
+</body>
+</html>
