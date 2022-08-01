@@ -1,0 +1,32 @@
+body {
+    background: #000;
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.colorpicker {
+    position: relative;
+}
+.colorindicator {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-20%, 1%);
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+.title {
+    -webkit-text-fill-color: #fff;
+    transform: translate(143%, -30%);
+}
+#colorpicker {
+
+}
+.trail { /* className for the trail elements */
+    position: absolute;
+    height: 6px; width: 6px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+  }
