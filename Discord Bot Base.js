@@ -58,5 +58,5 @@ client.on('ready', () => {
 simpleReply('~ping', 'pong')
 simpleReply('~dice', 'you rolled a ' + getRandomInt(6))
 simpleReply('~help', 'ping, dice)
-
+ 
 client.login('add your token here');
