@@ -59,4 +59,4 @@ simpleReply('~ping', 'pong')
 simpleReply('~dice', 'you rolled a ' + getRandomInt(6))
 simpleReply('~help', 'ping, dice)
 
-client.login('MTA5NjMxODE1MjEzODMwNTU0OA.G27bFF.cvQAmDOhhvoxdNXw4m5IbdL6NzjUj3V2SjCm6Q');
+client.login('add your token here');
