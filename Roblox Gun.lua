@@ -1,3 +1,4 @@
+-- just for fun, i have no idea how to code in Roblox
 local player = game.Players.LocalPlayer
 local mouse = player:GetMouse()
 
